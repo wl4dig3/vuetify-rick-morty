@@ -107,9 +107,9 @@ export default {
           to: '/inspire'
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Barra',
-          to: '/barra'
+          icon: 'mdi-movie',
+          title: 'Rick & Morty',
+          to: '/barra '
         }
       ],
       miniVariant: false,
