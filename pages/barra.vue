@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h1>We introduce Rick and Morty</h1>
+    <h1>{{titlee}}</h1>
     <v-container>
       <v-row>
-        <v-col>
+        <v-col v-for="(personaje, i) in personajes"
+            :key="i">
           <v-card
             class="mx-auto"
             max-width="344"
-            v-for="(personaje, i) in personajes"
-            :key="i"
+            
           >
             <v-img :src="personaje.imagen" height="200px"></v-img>
 
@@ -25,6 +25,7 @@
 <script>
 export default {
   data: () => ({
+    titlee:'Lady and gentleman, we introduce to Rick and Morty',
     personajes: [
       {
         id: 1,
@@ -50,6 +51,11 @@ export default {
         id: 5,
         nombre: "Jerry",
         imagen: "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+      },
+      {
+        id: 6,
+        nombre: "Alien Spa",
+        imagen: "https://rickandmortyapi.com/api/character/avatar/361.jpeg",
       },
     ],
   }),
