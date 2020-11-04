@@ -11,6 +11,7 @@
         </v-card-title>
         <v-card-text>
           <p>Kindly click 'barra' link at the left to get to the characters</p>
+          <p>Or just add: /barra on address bar above</p>
           
           
           

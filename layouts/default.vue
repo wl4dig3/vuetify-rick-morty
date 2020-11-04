@@ -109,7 +109,7 @@ export default {
         {
           icon: 'mdi-movie',
           title: 'Rick & Morty',
-          to: '/barra '
+          to: '/barra'
         }
       ],
       miniVariant: false,
